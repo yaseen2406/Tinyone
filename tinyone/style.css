@@ -1,0 +1,100 @@
+body {
+	font-family: arial;
+}
+div#top{
+	background-color: yellow;
+	height: 700px;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style-type: none;
+	float: left;
+	padding: 10px;
+	display: inline-block;
+	font-size: 18px;
+}
+ul li:hover{
+	font-size: 19px;
+}
+.topr{
+	width: 300px;
+	display: inline-block;
+	float: left;
+	margin-left: 70px;
+	margin-right: 200px;
+	padding-top:30px;
+}
+img{
+	padding: 10px;
+	margin: 0;
+}
+#mid{
+	background-color: none;
+	height: 700px;
+}
+.container{
+	margin-left: 50px;
+}
+#tf{
+	 text-align: center;
+	 margin-top: 50px;
+	 padding-bottom: 50px;
+}
+.feature{
+	margin-top: 50px;
+	float: left;
+	width: 25%;
+	margin-left: 10px;
+
+}
+.icon{
+	margin-top: 50px;
+	float: left;
+
+}
+#bottom{
+	padding:50px;
+	background-color: black;
+	height: 700px;
+
+	
+}
+input[type=email] {
+			width: 50%;
+			padding: 15px;
+			font-size: 16px;
+			box-sizing: border-box;
+			border-radius: 5px;
+			outline: none;
+}
+input[type=submit]{
+			width: 100px;
+			padding: 15px;
+			background-color: yellow;
+			box-sizing: border-box;
+			outline: none;
+			font-size: 16px;
+			border: 1px solid #999;
+			border-radius: 7px;
+			cursor: pointer;
+		}
+		input[type=submit]:hover{
+			background-color: #008CBA;
+   			color: white;
+		}
+		input[type=submit]:active{
+			background-color: yellow;
+    		color: black;
+    		transform: translateY(2px);
+		}
+.f{
+	margin-top: 100px;
+	color: white;
+	float: left;
+	margin-left: 30px;
+	padding: 50px;
+}
